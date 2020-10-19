@@ -9,7 +9,7 @@
   }
   /* changes colors of many things*/
   body {
-      background-color: rgb(226, 154, 106);
+      background-color: rgb(226, 103, 21);
     }
     h1 {
       color: rgb(4, 45, 170);
@@ -58,6 +58,6 @@
       text-decoration: none;
     }
     #navbar a:hover {
-      background-color:  rgb(192, 134, 10);
+      background-color:  rgb(224, 106, 28);
       color: white
     }
