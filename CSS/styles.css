@@ -45,7 +45,7 @@
     /* style the navbar */
     #navbar {
       overflow: hidden;
-      background-color: lightblue;
+      background-color: rgb(81, 180, 212);
     }
     /* Navbar Links */
     #navbar a {
@@ -58,6 +58,6 @@
       text-decoration: none;
     }
     #navbar a:hover {
-      background-color: limegreen;
+      background-color:  rgb(192, 134, 10);
       color: white
     }
