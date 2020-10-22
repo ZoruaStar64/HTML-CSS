@@ -8,21 +8,25 @@
     font-family: sans-serif;
   }
   header {
-      background-color: red;
+      background-color: white;
       margin-bottom: 30px;
+      width: 960px;
   }
   section {
-      background-color: green;
+      background-color: white;
       border: 1px, black, solid;
+      width: 960;
   }
   footer {
-    background-color: black;
+    background-color: white;
     padding: 20px;
+    width: 960px;
   }
   /* changes colors of many things*/
   body {
-      background-color: yellow;
+      background-color: white;
       padding: 20px;
+      width: 960px;
     }
     h1 {
       color: black;
@@ -60,18 +64,41 @@
     #navbar {
       overflow: hidden;
       background-color: black;
+      padding: 10px;
     }
     /* Navbar Links */
     #navbar a {
       float: left;
       display: block;
-      width: 190px;
+      width: 235px;
       color: white;
       text-align: center;
-      padding: 5px 0;
       text-decoration: none;
+      
+      border-right: 2px, solid, white;
     }
     #navbar a:hover {
       background-color:  white;
       color: black;
+    }
+    div.wrapper {
+        width: 960px;
+        margin: auto;
+    }
+    article {
+        float: left;
+        margin-right: 2%;
+        width: 49%;
+    }
+   table {
+       width: 49%;
+   }
+   td {
+    padding: 10px;
+    }
+    td.groen {
+        background-color: rgb(204, 255, 204);
+    }
+    td.blauw {
+        background-color: rgb(204, 255, 255);
     }
