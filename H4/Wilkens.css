@@ -1,0 +1,77 @@
+/* changes the text's font */
+@font-face {
+    font-family: sans-serif;
+    src: url(sansation-light.woff);
+  }
+  
+  * {
+    font-family: sans-serif;
+  }
+  header {
+      background-color: red;
+      margin-bottom: 30px;
+  }
+  section {
+      background-color: green;
+      border: 1px, black, solid;
+  }
+  footer {
+    background-color: black;
+    padding: 20px;
+  }
+  /* changes colors of many things*/
+  body {
+      background-color: yellow;
+      padding: 20px;
+    }
+    h1 {
+      color: black;
+    }
+    p {
+      color: black;
+    }
+    
+  
+    a:link {
+      color: rgb(25, 10, 163);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: DarkCyan;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: rgb(126, 9, 161);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: rgb(4, 163, 30);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+  
+    /* style the navbar */
+    #navbar {
+      overflow: hidden;
+      background-color: black;
+    }
+    /* Navbar Links */
+    #navbar a {
+      float: left;
+      display: block;
+      width: 190px;
+      color: white;
+      text-align: center;
+      padding: 5px 0;
+      text-decoration: none;
+    }
+    #navbar a:hover {
+      background-color:  white;
+      color: black;
+    }
