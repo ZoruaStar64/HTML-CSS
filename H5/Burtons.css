@@ -1,9 +1,59 @@
 * {
-width: 1000px;
-margin: auto;
+/*  */
 box-sizing: border-box;
 }
 
+div#wrapper {
+    margin: auto; 
+    width: 1000px;
+    background-color: rgb( 251, 235, 235); 
+    padding: 20px;
+}
+
 body {
-    background-color: lightpink;
+    font-family: Arial, sans-serif;
+    
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    margin-right: 20px;
+}
+
+section.Appel, section.School {
+    width: 50%;
+    float: left;
+    
+}
+
+section.School {
+    text-align: right;
+}
+
+section.Articles {
+    
+}
+
+img.Appel {
+    width: 497px;
+}
+
+img.School {
+    width: 447px;
+    margin-bottom: 13px;
+}
+
+article {
+    display: inline-block;
+    width: 33%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+
+article:last-child {
+    padding-right: 0px;
 }
