@@ -3,7 +3,7 @@
 box-sizing: border-box;
 }
 
-div#wrapper {
+div#wrapper, footer {
     margin: auto; 
     width: 1000px;
     background-color: rgb( 251, 235, 235); 
@@ -12,7 +12,16 @@ div#wrapper {
 
 body {
     font-family: Arial, sans-serif;
-    
+    line-height: 25px;
+}
+
+footer {
+    background-color: rgb(166, 166, 166);
+    color: white;
+}
+
+footer a {
+    color: white;
 }
 
 nav {
@@ -35,7 +44,7 @@ section.School {
 }
 
 section.Articles {
-    
+   
 }
 
 img.Appel {
@@ -45,6 +54,11 @@ img.Appel {
 img.School {
     width: 447px;
     margin-bottom: 13px;
+}
+
+img.Articles {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 article {
