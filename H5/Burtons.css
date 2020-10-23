@@ -1,4 +1,9 @@
 * {
 width: 1000px;
 margin: auto;
+box-sizing: border-box;
+}
+
+body {
+    background-color: lightpink;
 }
