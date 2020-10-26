@@ -1,3 +1,28 @@
+header {
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+}
+
+section.one, section.two {
+    width: 50%;
+    float: left;
+}
+
+footer {
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    float: inline-end;
+}
+div#wrapper {
+    margin: auto; 
+    width: 1000px;
+    padding: 20px;
+}
+
+
+
 form ul {
     list-style-type: none;
     padding: 0;
@@ -21,3 +46,13 @@ form ul li textarea {
     left: 150px;
 }
 
+.radio {
+    padding: 9px;
+
+}
+
+form ul li .checkbox {
+    position: relative;
+ left: 150px;
+ bottom: 15px;
+}

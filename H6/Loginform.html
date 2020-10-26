@@ -6,12 +6,15 @@
 </head>
 <body>
     <a href="../H6/Burton-Education.html">Terug naar home</a>
+    <div class="wrapper"></div>
 <form action="https://www.savatarian.com/html5/form.php" method="POST">
 <ul>
+    <header>
     <li>
         <h2>Burton Education</h2>
-        <span class="verplicht">* verplicht feld</span>
     </li>
+    </header>
+    <section class="one">
     <li>
         <label for="voornaam">Voornaam:</label>
         <input type="text" name="voornaam" id="voornaam" required>
@@ -24,15 +27,14 @@
         <label for="achternaam">Achternaam:</label>
         <input type="text" name="achternaam" id="achternaam" required>
     </li>
-    <li>
+    <div class="radio">
         <label for="geslacht">Geslacht</label>
-           
-        <input class="radio" type="radio" name="geslacht" id="man" value="man">&nbsp;Man
-        
-        <input class="radio" type="radio" name="geslacht" id="vrouw" value="vrouw">&nbsp;Vrou
-    
+        <label for="man">&emsp;&emsp;&emsp;&emsp;Man</label>
+        <input type="radio" name="geslacht" id="man" value="man"/>
+        <label for="vrouw">Vrouw</label>
+        <input type="radio" name="geslacht" id="vrouw" value="vrouw"/>
+    </div>
 
-    </li>
     <li>
         <label for="KleurOgen">Kleur ogen</label>
         <select name="KleurOgen" id="KleurOgen">
@@ -48,13 +50,28 @@
     </li>
     <li>
         <label for="omschrijving">Omschrijving</label>
-        <textarea name="omschrijving" id="omschrijving"></textarea>
+        <textarea name="omschrijving" id="omschrijving" rows="6" cols="30"></textarea>
     </li>
+    </section>
+    <section class="two">
+        <li>
+            <label for="favoriet">Favoriete soort eten:</label><br>
+            <input type="checkbox" name="favoriet" value="Vleeswaren">
+            <span class="checkbox">Vleeswaren</span><br>
+            
+            <input type="checkbox" name="favoriet" value="Groenten">
+            <span class="checkbox">Groenten</span><br>
+            <input type="checkbox" name="favoriet" value="Overige">
+            <span class="checkbox">Overige</span><br>
+        </li>
+    </section>
+    <footer>
     <li>
         <input type="submit" name="knop">
     </li>
+    </footer>
 </ul>
 </form>
-
+</div>
 </body>
 </html>
