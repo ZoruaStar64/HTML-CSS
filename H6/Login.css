@@ -16,7 +16,7 @@ footer {
     padding: 10px;
     float: initial;
 }
-div#wrapper {
+div#wrapper, footer {
     margin: auto; 
     width: 1000px;
     height: 1000px;
@@ -60,5 +60,5 @@ form ul li .checkbox {
 }
 .button {
     position: relative;
-    left: 720px;
+    left: 18px;
 }
