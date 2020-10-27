@@ -8,28 +8,26 @@
     <a href="../H6/Burton-Education.html">Terug naar home</a>
     <div class="wrapper"></div>
 <form action="https://www.savatarian.com/html5/form.php" method="POST">
-<ul>
     <header>
-    <li>
         <h2>Burton Education</h2>
-    </li>
     </header>
+<ul>
     <section class="one">
     <li>
         <label for="voornaam">Voornaam:</label>
-        <input type="text" name="voornaam" id="voornaam" required>
+        <input class="absolute" type="text" name="voornaam" id="voornaam" required>
     </li>
     <li>
         <label for="tussenvoegsel">Tussenvoegsel:</label>
-        <input type="text" name="tussenvoegsel" id="tussenvoegsel">
+        <input class="absolute" type="text" name="tussenvoegsel" id="tussenvoegsel">
     </li>
     <li>
         <label for="achternaam">Achternaam:</label>
-        <input type="text" name="achternaam" id="achternaam" required>
+        <input class="absolute" type="text" name="achternaam" id="achternaam" required>
     </li>
     <div class="radio">
         <label for="geslacht">Geslacht</label>
-        <label for="man">&emsp;&emsp;&emsp;&emsp;Man</label>
+        <label for="man">&emsp;&emsp;&emsp;&emsp;&ensp;Man</label>
         <input type="radio" name="geslacht" id="man" value="man"/>
         <label for="vrouw">Vrouw</label>
         <input type="radio" name="geslacht" id="vrouw" value="vrouw"/>
@@ -46,7 +44,7 @@
     </li>
     <li>
         <label for="geboortedatum">Geboortedatum</label>
-        <input type="date" name="geboortedatum" id="geboortedatum">
+        <input class="absolute" type="date" name="geboortedatum" id="geboortedatum">
     </li>
     <li>
         <label for="omschrijving">Omschrijving</label>
@@ -56,21 +54,20 @@
     <section class="two">
         <li>
             <label for="favoriet">Favoriete soort eten:</label><br>
-            <input type="checkbox" name="favoriet" value="Vleeswaren">
+            <input class="checkbox" type="checkbox" name="favoriet" value="Vleeswaren">
             <span class="checkbox">Vleeswaren</span><br>
             
-            <input type="checkbox" name="favoriet" value="Groenten">
+            <input class="checkbox" type="checkbox" name="favoriet" value="Groenten">
             <span class="checkbox">Groenten</span><br>
-            <input type="checkbox" name="favoriet" value="Overige">
+            <input class="checkbox" type="checkbox" name="favoriet" value="Overige">
             <span class="checkbox">Overige</span><br>
         </li>
     </section>
-    <footer>
-    <li>
-        <input type="submit" name="knop">
-    </li>
-    </footer>
 </ul>
+<footer>
+    <input class="button" type="submit" name="knop">
+    <input class="button" type="reset" name="reset">
+</footer>
 </form>
 </div>
 </body>

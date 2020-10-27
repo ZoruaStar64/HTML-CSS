@@ -7,17 +7,19 @@ header {
 section.one, section.two {
     width: 50%;
     float: left;
+    padding-bottom: 10px;
 }
 
 footer {
     width: 600px;
     height: 50px;
     padding: 10px;
-    float: inline-end;
+    float: initial;
 }
 div#wrapper {
     margin: auto; 
     width: 1000px;
+    height: 1000px;
     padding: 20px;
 }
 
@@ -32,7 +34,7 @@ form ul li {
     padding: 10px;
 }
 
-form ul li input {
+.absolute {
     position: absolute;
     left: 150px;
 }
@@ -53,6 +55,10 @@ form ul li textarea {
 
 form ul li .checkbox {
     position: relative;
- left: 150px;
- bottom: 15px;
+    left: 150px;
+    bottom: 18px;
+}
+.button {
+    position: relative;
+    left: 720px;
 }
