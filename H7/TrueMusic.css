@@ -1,10 +1,13 @@
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(250, 241, 234);
     font-family: 'Raleway', sans-serif;
 }
 
 header {
     background-color: rgb(192, 240, 223);
+    text-align: center;
 }
 
 div#wrapper {
@@ -14,6 +17,25 @@ div#wrapper {
     padding: 20px;
 }
 
+img#logo {
+    width: 320px;
+}
 
+ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+li {
+    background-color: rgb(128, 128, 128);
+    padding: 10px;
+    border-top: 1px solid white;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
 
 
